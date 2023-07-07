@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APPLE IPHONE 12 PRO MAX</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-row" width=100%>
+                    <a href="index.html"><img src="images/logo.png" class="logo" width="100px"></a>
+                </div>
+            </div>
+        </div>
+
+       <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/phone.jpg" width="400px" height="400px" id="ProductImg">
+                    
+                    <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/phone.jpg" width="120px" height="120px" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/phone-2.jpg" width="120px" height="120px" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/phone-4.jpg" width="120px" height="120px" class="small-img">
+                    </div>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <h1>APPLE IPHONE 14 PRO MAX</h1>
+                <h3>6.70 ", 128 GB, RAM 6 GB, 5G</h3>
+            <img src="images/rating5.png" width="120px">
+                <h2><br>2499.00лв.<br></h2>
+                <p><br><br>
+                Марка: APPLE<br>
+                МОДЕЛ: IPHONE 14 PRO MAX BLUE<br>
+                ПРОЦЕСОР: Apple A16 Bionic чип<br>
+                РАЗМЕР НА ЕКРАНА В INCH: 6.70 "<br>
+                ТЕХНОЛОГИЯ НА ДИСПЛЕЯ: Super Retina XDR, OLED<br>
+                РЕЗОЛЮЦИЯ: 2796x1290<br>
+                ВГРАДЕНА ПАМЕТ: 128 GB<br>
+                RAM: 6 GB<br>
+                ЗАДНА КАМЕРА РЕЗОЛЮЦИЯ:   48MP Main; 12MP 2x Telephoto; 12MP 3x Telephoto<br>
+                ПРЕДНА КАМЕРА РЕЗОЛЮЦИЯ: 12 MP<br>
+                ОПЕРАЦИОННА СИСТЕМА: IOS<br>
+                КАПАЦИТЕТ НА БАТЕРИЯТА: 4323 mAh<br>
+            </div>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+        <div class="wrapper">
+            <form id="todoForm" class="form">
+                <h2>Вашето ревю за продукта:</h2>
+                <input  id="username" class="name" placeholder="Име">
+                <br>
+                <textarea id="review" class="message" placeholder="Напишете ревю..."></textarea>
+                <br>
+                <button type="button" class="button" onclick="getInfo()">Напиши</button>
+                <br>
+                <br>
+                <br>
+                <h2>Всички ревюта:</h2>
+                <br>
+                <h3>Мария Петрова</h3>
+                <p>Камерата е страхотна!</p>
+                <br>
+                <h3>Костадин Костадинов</h3>
+                <p>Просто уау!</p>
+            </form>
+            <ul id="newList"></ul>
+        </div>
+
+        <div class="small-container">
+            <div class="review">
+                <h1>Още отзиви от доволни клиенти:</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/client-1.jpg" width="200px" height="200px">
+                        <h3>Aся</h3>
+                        <img src="images/rating5.png" width=150px>
+                        <p>Най-добрият телефон, който съм имала досега!</p>
+                    </div>
+                    <div class="col-4">
+                    <img src="images/client-3.jpg" width="200px" height="200px">
+                    <h3>Петър</h3>
+                    <img src="images/rating5.png" width=150px>
+                    <p>Най-доброто на пазара за момента!</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/client-6.jpg" width="200px" height="200px">
+                        <h3>Катрин</h3>
+                        <img src="images/rating5.png" width=150px>
+                        <p>Много по-добър от предходния модел. Очарована съм!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="small-container">
+        <div class="row">
+            <div class="col-order">
+                <div class="form-buy">
+                <form class="input-group">
+                    <h2>Поръчай сега!</h2>
+                    <p>Въведи име и адрес и продължи, за да довършиш поръчката си.</p><br><br>
+            
+                    <input type="text" id="name" class="input-field" placeholder="Име" required>
+                    <input type="text" class="input-field" placeholder="Адрес" required>
+                    <button type="button" class="button" onclick="getName()">Поръчай</button>
+                </form>
+                </div>
+            </div>
+            <div class="col-order">
+                <img src="images/order.jpg" width="600px">
+            </div>
+        </div>
+        </div>
+
+        <script src="script.js"></script>
+</html>

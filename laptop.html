@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Лаптоп Acer Aspire 3A315-23-R32X</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-row" width=100%>
+                    <a href="index.html"><img src="images/logo.png" class="logo" width="100px"></a>
+                </div>
+            </div>
+        </div>
+
+       <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/laptop.jpg" width="400px" height="400px" id="ProductImg">
+                    
+                    <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/laptop.jpg" width="120px" height="120px" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/laptop-4.jpg" width="120px" height="120px" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/laptop-3.jpg" width="120px" height="120px" class="small-img">
+                    </div>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <h1>Лаптоп Acer - Nitro 5</h1>
+                <h3>AN515-58-76M5, 15.6'', i7, 144Hz, 16GB,<br> WINDOWS 10 HOME S</h3>
+            <img src="images/rating4.png" width="120px">
+                <h2><br>2099.00лв.<br></h2>
+                <p><br><br>
+                    ТИП: ЛАПТОП<br>
+                RAM: 8 GB + 8 GB <br>
+                SSD: 1000 GB <br>
+                ТИП ПРОЦЕСОР: Intel Core i7-12700H <br>
+                РАЗМЕР НА ЕКРАНА В INCH: 15.6 " <br>
+                ЧЕСТОТА НА ПРОЦЕСОРА: 3.5 - 4.7 GHz <br>
+                ТИП ГРАФИЧНА КАРТА: Nvidia GeForce RTX 3050 Ti <br>
+                ОПЕРАЦИОННА СИСТЕМА: WINDOWS 10 HOME S <br>
+                <br><br>
+            </div>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+        <div class="wrapper">
+            <form id="todoForm" class="form">
+                <h2>Вашето ревю за продукта:</h2>
+                <input  id="username" class="name" placeholder="Име">
+                <br>
+                <textarea id="review" class="message" placeholder="Напишете ревю..."></textarea>
+                <br>
+                <button type="button" class="button" onclick="getInfo()">Напиши</button>
+                <br>
+                <br>
+                <br>
+                <h2>Всички ревюта:</h2>
+                <br>
+                <h3>Петър Петков</h3>
+                <p>Изключително доволен съм! Препоръчвам!</p>
+            </form>
+            <ul id="newList"></ul>
+        </div>
+
+        <div class="small-container">
+            <div class="review">
+                <h1>Още отзиви от доволни клиенти:</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/client-4.jpg" width="200px" height="200px">
+                        <h3>Вяра</h3>
+                        <img src="images/rating5.png" width=150px>
+                        <p>Чудесно устройство. Върши ми перфектна работа.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/client-5.jpg" width="200px" height="200px">
+                        <h3>Калоян</h3>
+                        <img src="images/rating5.png" width=150px>
+                        <p>Много елегантен, бърз и с голям живот на батерията.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/client-6.jpg" width="200px" height="200px">
+                        <h3>Катрин</h3>
+                        <img src="images/rating5.png" width=150px>
+                        <p> Лек и удобен. Оправда очакванията ми. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="small-container">
+        <div class="row">
+            <div class="col-order">
+                <div class="form-buy">
+                <form class="input-group">
+                    <h2>Поръчай сега!</h2>
+                    <p>Въведи име и адрес и продължи, за да довършиш поръчката си.</p><br><br>
+            
+                    <input type="text" id="name" class="input-field" placeholder="Име" required>
+                    <input type="text" class="input-field" placeholder="Адрес" required>
+                    <button type="button" class="button" onclick="getName()">Поръчай</button>
+                </form>
+                </div>
+            </div>
+            <div class="col-order">
+                <img src="images/order.jpg" width="600px">
+            </div>
+        </div>
+        </div>
+
+        <script src="script.js"></script>
+</html>
